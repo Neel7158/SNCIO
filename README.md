@@ -557,7 +557,7 @@
     <div class="reveal text-center mb-12">
       <div class="tag mb-4">Free Strategy Session</div>
       <h2 class="font-display" style="font-size:clamp(2rem,4vw,3.5rem);">FIND OUT HOW MUCH<br/><span style="color:var(--orange);">YOUR LAYOUT IS COSTING YOU</span></h2>
-      <p class="mt-4" style="color:var(--text-muted);">Fill in the details below. Neel Shah will personally call you within 24 hours to schedule a free, no-obligation 30-minute Plant Efficiency Review.</p>
+      <p class="mt-4" style="color:var(--text-muted);">Fill in the details below. We will contact you within 24 hours to schedule a free, no-obligation 30-minute Plant Efficiency Review.</p>
     </div>
 
     <div class="card reveal p-8 md:p-10" style="border-color:rgba(249,115,22,0.22);">
@@ -746,7 +746,7 @@
     // 3. Copy the form ID (e.g. xpzgkwrd) and paste below
     const FORMSPREE_ID = 'xbdqwldn'; // <-- REPLACE THIS
 
-    if (FORMSPREE_ID === '(xbdqwldn)') {
+    if (FORMSPREE_ID === 'xbdqwldn') {
       // Demo mode — show success without actually sending
       showSuccess();
       return;
