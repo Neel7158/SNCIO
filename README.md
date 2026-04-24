@@ -651,7 +651,7 @@
     <div id="success-msg" class="hidden card p-8 text-center mt-6" style="border-color:rgba(34,197,94,0.3);background:rgba(34,197,94,0.05);">
       <div class="text-4xl mb-4">✅</div>
       <h3 class="font-display text-3xl mb-2" style="color:#22c55e;">REQUEST RECEIVED</h3>
-      <p style="color:var(--text-muted);">Neel Shah will personally contact you within 24 hours to schedule your free Plant Efficiency Review. Please keep your mobile on.</p>
+      <p style="color:var(--text-muted);">We will contact you within 24 hours to schedule your free Plant Efficiency Review.</p>
     </div>
   </div>
 </section>
@@ -744,16 +744,16 @@
     // 1. Go to https://formspree.io → create free account → New Form
     // 2. Set email to neels@sncio.in
     // 3. Copy the form ID (e.g. xpzgkwrd) and paste below
-    const FORMSPREE_ID = 'https://formspree.io/f/xbdqwldn'; // <-- REPLACE THIS
+    const FORMSPREE_ID = 'xbdqwldn'; // <-- REPLACE THIS
 
-    if (FORMSPREE_ID === '(https://formspree.io/f/xbdqwldn)') {
+    if (FORMSPREE_ID === '(xbdqwldn)') {
       // Demo mode — show success without actually sending
       showSuccess();
       return;
     }
 
     try {
-      const res = await fetch('https://formspree.io/f/' + FORMSPREE_ID, {
+      const res = await fetch('https://formspree.io/f/' + xbdqwldn, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify({
