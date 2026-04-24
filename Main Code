@@ -194,7 +194,7 @@
         </svg>
       </div>
       <span class="font-display text-2xl tracking-widest" style="color:var(--text-primary);">SNCIO</span>
-      <span class="hidden sm:block font-mono text-xs" style="color:var(--text-muted);">/ Industrial Optimization</span>
+      <span class="hidden sm:block font-mono text-xs" style="color:var(--text-muted);">/ Optimize, Execute, Scale </span>
     </div>
     <a href="#contact" class="btn-orange px-5 py-2 rounded-lg text-sm font-semibold">Book Free Call</a>
   </div>
