@@ -355,15 +355,24 @@
       display: flex; align-items: center; justify-content: center;
       margin-bottom: 14px;
     }
-    .bullet-row {
-      display: flex;
-      align-items: flex-start;
-      gap: 8px;
-      font-size: .85rem;
-      color: var(--text-2);
-      margin-bottom: 8px;
-    }
-    .bullet-row span { flex-shrink: 0; margin-top: 1px; }
+.bullet-row {
+  display: grid;
+  grid-template-columns: 10px 1fr;
+  column-gap: 8px;
+  align-items: start;
+  font-size: .85rem;
+  color: var(--text-2);
+  margin-bottom: 8px;
+  line-height: 1.55;
+}
+
+.bullet-row > span,
+.bullet-row > div {
+  width: 8px;
+  height: 8px;
+  min-width: 8px;
+  margin-top: 0.48em;
+}
 
     /* ═══════════════════════════════════════════════════════
        SUBSIDY SECTION
@@ -889,6 +898,9 @@
               <marker id="arr-r" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
                 <path d="M0,0 L0,6 L6,3 z" fill="rgba(239,68,68,.85)"/>
               </marker>
+              <marker id="arr-r-fix" viewBox="0 0 10 10" refX="10" refY="3.5" markerWidth="4.5" markerHeight="4.5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="rgba(239,68,68,.9)" />
+              </marker>
             </defs>
             <rect width="400" height="280" fill="#f8fafc"/>
             <rect width="400" height="280" fill="url(#bg-b)"/>
@@ -905,16 +917,16 @@
             <text x="150" y="68" text-anchor="middle" class="btext">WIP</text>
             <rect x="20" y="240" width="360" height="25" class="broom"/>
             <text x="200" y="255" text-anchor="middle" class="btext">DISPATCH (BACK WALL)</text>
-            <path d="M 65 120 Q 290 135 290 140" stroke="rgba(239,68,68,.75)" stroke-width="1.5" stroke-dasharray="5 3" fill="none" marker-end="url(#arr-r)"/>
+            <path d="M 65 120 Q 295 133 304 137" stroke="rgba(239,68,68,.75)" stroke-width="1.5" stroke-dasharray="5 3" fill="none" marker-end="url(#arr-r-fix)"/>
             <path d="M 290 90 Q 150 120 100 140" stroke="rgba(239,68,68,.75)" stroke-width="1.5" stroke-dasharray="5 3" fill="none" marker-end="url(#arr-r)"/>
             <path d="M 180 180 Q 230 200 240 180" stroke="rgba(239,68,68,.75)" stroke-width="1.5" stroke-dasharray="5 3" fill="none" marker-end="url(#arr-r)"/>
             <path d="M 310 220 Q 200 232 30 240" stroke="rgba(239,68,68,.75)" stroke-width="1.5" stroke-dasharray="5 3" fill="none" marker-end="url(#arr-r)"/>
-            <text x="200" y="130" text-anchor="middle" fill="#ef4444" font-family="monospace" font-size="9">⚠ avg. material travel: 480m/day</text>
+            <text x="245" y="130" text-anchor="middle" fill="#ef4444" font-family="monospace" font-size="7.5" letter-spacing="-0.5" font-weight="600" transform="rotate(5 270 160)"> ⚠ avg. material travel: 480m/day </text>
           </svg>
           <div style="margin-top:12px;">
-            <div class="bullet-row"><div style="width:8px;height:8px;min-width:8px;border-radius:50%;background:#ef4444;margin-top:3px;"></div>Raw store &amp; dispatch at opposite ends — 120m wasted per pallet</div>
-            <div class="bullet-row"><div style="width:8px;height:8px;min-width:8px;border-radius:50%;background:#ef4444;margin-top:3px;"></div>WIP island creates cross-traffic and collision risk</div>
-            <div class="bullet-row"><div style="width:8px;height:8px;min-width:8px;border-radius:50%;background:#ef4444;margin-top:3px;"></div>Quality checkpoint at dead-end — rework doubles handling cost</div>
+            <div class="bullet-row"><div style="border-radius:50%;background:#ef4444;"></div>Raw store &amp; dispatch at opposite ends — 120m wasted per pallet</div>
+            <div class="bullet-row"><div style="border-radius:50%;background:#ef4444;"></div>WIP island creates cross-traffic and collision risk</div>
+            <div class="bullet-row"><div style="border-radius:50%;background:#ef4444;"></div>Quality checkpoint at dead-end — rework doubles handling cost</div>
           </div>
         </div>
       </div>
@@ -953,12 +965,12 @@
             <path d="M 310 130 L 310 150" stroke="rgba(34,197,94,.85)" stroke-width="2" fill="none" marker-end="url(#arr-g)"/>
             <path d="M 240 205 L 220 205" stroke="rgba(34,197,94,.85)" stroke-width="2" fill="none" marker-end="url(#arr-g)"/>
             <path d="M 120 205 L 100 205" stroke="rgba(34,197,94,.85)" stroke-width="2" fill="none" marker-end="url(#arr-g)"/>
-            <text x="200" y="270" text-anchor="middle" fill="#16a34a" font-family="monospace" font-size="9">✓ avg. material travel: 95m/day (–80%)</text>
+            <text x="200" y="268" text-anchor="middle" fill="#16a34a" font-family="monospace" font-size="9">✓ avg. material travel: 95m/day (–80%)</text>
           </svg>
           <div style="margin-top:12px;">
-            <div class="bullet-row"><div style="width:8px;height:8px;min-width:8px;border-radius:50%;background:#22c55e;margin-top:3px;"></div>U-shaped flow — raw in, finished out, zero cross-traffic</div>
-            <div class="bullet-row"><div style="width:8px;height:8px;min-width:8px;border-radius:50%;background:#22c55e;margin-top:3px;"></div>Quality integrated inline — defects caught at source</div>
-            <div class="bullet-row"><div style="width:8px;height:8px;min-width:8px;border-radius:50%;background:#22c55e;margin-top:3px;"></div>80% reduction in material travel → direct throughput increase</div>
+            <div class="bullet-row"><div style="border-radius:50%;background:#22c55e;"></div>U-shaped flow — raw in, finished out, zero cross-traffic</div>
+            <div class="bullet-row"><div style="border-radius:50%;background:#22c55e;"></div>Quality integrated inline — defects caught at source</div>
+            <div class="bullet-row"><div style="border-radius:50%;background:#22c55e;"></div>80% reduction in material travel → direct throughput increase</div>
           </div>
         </div>
       </div>
