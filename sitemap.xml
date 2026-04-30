@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="https://www.w3.org/1999/xhtml"
+  xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+
+  <!--
+    SNCIO Sitemap — www.sncio.in
+    Generated: 2026-04-30
+    Submit to: https://search.google.com/search-console
+    Sitemap URL to enter in GSC: https://www.sncio.in/sitemap.xml
+  -->
+
+  <url>
+    <!-- Homepage — primary page -->
+    <loc>https://www.sncio.in/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- Multilingual alternates (same page, multiple languages served) -->
+    <xhtml:link rel="alternate" hreflang="en"        href="https://www.sncio.in/" />
+    <xhtml:link rel="alternate" hreflang="gu"        href="https://www.sncio.in/" />
+    <xhtml:link rel="alternate" hreflang="hi"        href="https://www.sncio.in/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sncio.in/" />
+
+    <!-- Key images on the page for Google Image Search indexing -->
+    <image:image>
+      <image:loc>https://www.sncio.in/Logo.png</image:loc>
+      <image:caption>SNCIO Logo — Industrial Optimization Consultancy Gujarat</image:caption>
+      <image:title>SNCIO Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.sncio.in/Plant%20Layout.png</image:loc>
+      <image:caption>CAD Plant Layout Blueprint — SNCIO Optimized Factory Floor Plan Gujarat GIDC</image:caption>
+      <image:title>SNCIO Plant Layout Blueprint</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.sncio.in/og-image.svg</image:loc>
+      <image:caption>SNCIO – Stop the Profit Leak in Your Plant – MSME Lean Scheme Consultants Gujarat</image:caption>
+      <image:title>SNCIO Social Preview</image:title>
+    </image:image>
+  </url>
+
+  <!--
+    ═══════════════════════════════════════════════════════════════
+    PLANNED FUTURE PAGES — uncomment and update as pages go live
+    ═══════════════════════════════════════════════════════════════
+
+  <url>
+    <loc>https://www.sncio.in/services/</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sncio.in/services/" />
+  </url>
+
+  <url>
+    <loc>https://www.sncio.in/msme-lean-scheme/</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sncio.in/msme-lean-scheme/" />
+  </url>
+
+  <url>
+    <loc>https://www.sncio.in/about/</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sncio.in/contact/</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sncio.in/blog/</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  -->
+
+</urlset>
