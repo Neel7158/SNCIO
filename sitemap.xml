@@ -6,7 +6,7 @@
 
   <!--
     SNCIO Sitemap — www.sncio.in
-    Generated: 2026-04-30
+    Generated: 2026-05-01
     Submit to: https://search.google.com/search-console
     Sitemap URL to enter in GSC: https://www.sncio.in/sitemap.xml
   -->
@@ -14,7 +14,7 @@
   <url>
     <!-- Homepage — primary page -->
     <loc>https://www.sncio.in/</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
 
@@ -36,7 +36,7 @@
       <image:title>SNCIO Plant Layout Blueprint</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.sncio.in/og-image.svg</image:loc>
+      <image:loc>https://www.sncio.in/Plant%20Layout.png</image:loc>
       <image:caption>SNCIO – Stop the Profit Leak in Your Plant – MSME Lean Scheme Consultants Gujarat</image:caption>
       <image:title>SNCIO Social Preview</image:title>
     </image:image>
