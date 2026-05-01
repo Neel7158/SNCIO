@@ -43,3 +43,7 @@ Disallow: /
 
 User-agent: DotBot
 Disallow: /
+
+# Preferred host
+Host: www.sncio.in
+
