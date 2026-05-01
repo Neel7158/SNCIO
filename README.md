@@ -58,3 +58,27 @@ GitHub Pages is configured to publish from this branch.
 ## Contact
 
 Neel Shah · neels@sncio.in · +91 98257 22958
+
+## SEO baseline (India-first, scale-ready)
+
+This site should treat `https://www.sncio.in/` as the primary canonical domain for India.
+Keep `sncio.com` reserved for the future global site and avoid duplicate content between `.in` and `.com`.
+
+### Immediate priorities
+
+- Keep a single canonical URL for homepage (`https://www.sncio.in/`).
+- Keep XML sitemap and robots.txt aligned with live URLs only.
+- Add structured data (`ProfessionalService`) with consistent NAP (name, address/area, phone).
+- Track conversion clicks for `tel:` and `mailto:` links in analytics.
+- Create and verify Google Business Profile for local discoverability in Gujarat.
+
+### Suggested page expansion (next phase)
+
+When ready to move beyond a single-page landing site, add dedicated pages for:
+
+1. Manufacturing Consultancy (`/manufacturing-consultancy/`)
+2. Plant Design (`/plant-design/`)
+3. Industrial Digitisation (`/industrial-digitisation/`)
+4. Location pages for key Gujarat clusters and later pan-India pages
+
+This structure is better for ranking than trying to target all intents from one URL.
