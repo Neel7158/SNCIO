@@ -1,5 +1,5 @@
 # robots.txt — www.sncio.in
-# Updated: 2026-04-30
+# Updated: 2026-05-01
 
 User-agent: *
 Allow: /
@@ -8,7 +8,6 @@ Sitemap: https://www.sncio.in/sitemap.xml
 # Google
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 1
 
 User-agent: Googlebot-Image
 Allow: /
